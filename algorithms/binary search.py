@@ -1,5 +1,6 @@
 n = int(input('Колличество элементов: '))
 item = int(input('Искомое целое значение: '))
+
 lst = list(range(n))
 
 def binary_search(list, item):
